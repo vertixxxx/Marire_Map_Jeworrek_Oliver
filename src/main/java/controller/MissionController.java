@@ -15,7 +15,7 @@ public class MissionController {
 
     public void run() {
         try {
-            // --- TASK 1: Load and Print Stats ---
+            // TASK 1
             service.loadData("C:\\Users\\hsvdg\\OneDrive\\Documents\\VSCode_Projects\\marire_Jeworrek_Oliver\\src\\main\\resources\\astronauts.json",
                     "C:\\Users\\hsvdg\\OneDrive\\Documents\\VSCode_Projects\\marire_Jeworrek_Oliver\\src\\main\\resources\\events.json",
                     "C:\\Users\\hsvdg\\OneDrive\\Documents\\VSCode_Projects\\marire_Jeworrek_Oliver\\src\\main\\resources\\supplies.json");
@@ -28,15 +28,39 @@ public class MissionController {
                 System.out.println(a);
             }
 
-            // --- TASK 2: Filter ---
+            // TASK 2
             handleSpacecraftFilter();
 
-            // --- TASK 3: Sort ---
+            // TASK 3
             System.out.println("\nSorted Astronauts (Exp Desc, Name Asc):");
             List<Astronaut> sorted = service.getSortedAstronauts();
             sorted.forEach(System.out::println);
 
+            // TASK 4
+            service.exportReverseSortedAstronauts("astronauts_sorted.txt");
 
+            // TASK 5
+            System.out.println();
+            for (MissionEvent e : service.getFirstNEvents(5)) {
+                System.out.printf("Event %d -> raw=%d -> computed=%d%n",
+                        e.getId(), e.getBasePoints(), service.calculateComputedPoints(e));
+            }
+
+            // TASK 6
+            System.out.println("\nTop 5 Astronauts:");
+            List<Astronaut> top5 = service.getTopAstronauts(5);
+            for (int i = 0; i < top5.size(); i++) {
+                Astronaut a = top5.get(i);
+                System.out.printf("%d. %s (%s) -> %d%n",
+                        i + 1, a.getName(), a.getSpacecraft(), service.calculateTotalScore(a.getId()));
+            }
+            if (!top5.isEmpty()) {
+                System.out.println("Leading spacecraft: " + top5.get(0).getSpacecraft());
+            }
+
+            // TASK 7
+            service.generateMissionReport("mission_report.txt");
+            System.out.println("Task 7: mission_report.txt created.");
 
         } catch (IOException e) {
             System.err.println("Error: " + e.getMessage());
