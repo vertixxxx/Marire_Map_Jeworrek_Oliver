@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "astronautId": 1,
+    "type": "OXYGEN",
+    "value": 12
+  },
+  {
+    "id": 2,
+    "astronautId": 2,
+    "type": "TOOLS",
+    "value": 15
+  },
+  {
+    "id": 3,
+    "astronautId": 4,
+    "type": "FOOD",
+    "value": 8
+  },
+  {
+    "id": 4,
+    "astronautId": 5,
+    "type": "MEDKIT",
+    "value": 10
+  },
+  {
+    "id": 5,
+    "astronautId": 6,
+    "type": "FOOD",
+    "value": 6
+  },
+  {
+    "id": 6,
+    "astronautId": 8,
+    "type": "TOOLS",
+    "value": 9
+  },
+  {
+    "id": 7,
+    "astronautId": 10,
+    "type": "OXYGEN",
+    "value": 11
+  },
+  {
+    "id": 8,
+    "astronautId": 11,
+    "type": "TOOLS",
+    "value": 14
+  },
+  {
+    "id": 9,
+    "astronautId": 14,
+    "type": "MEDKIT",
+    "value": 7
+  },
+  {
+    "id": 10,
+    "astronautId": 15,
+    "type": "FOOD",
+    "value": 5
+  },
+  {
+    "id": 11,
+    "astronautId": 2,
+    "type": "OXYGEN",
+    "value": 8
+  },
+  {
+    "id": 12,
+    "astronautId": 1,
+    "type": "TOOLS",
+    "value": 10
+  },
+  {
+    "id": 13,
+    "astronautId": 11,
+    "type": "MEDKIT",
+    "value": 9
+  },
+  {
+    "id": 14,
+    "astronautId": 10,
+    "type": "FOOD",
+    "value": 6
+  }
+]

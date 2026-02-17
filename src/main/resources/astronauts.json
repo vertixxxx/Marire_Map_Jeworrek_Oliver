@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "Ava Ionescu",
+    "spacecraft": "Orion",
+    "status": "ACTIVE",
+    "experienceLevel": 9
+  },
+  {
+    "id": 2,
+    "name": "Mihai Petrescu",
+    "spacecraft": "Dragon",
+    "status": "ACTIVE",
+    "experienceLevel": 8
+  },
+  {
+    "id": 3,
+    "name": "Elena Pop",
+    "spacecraft": "Orion",
+    "status": "INACTIVE",
+    "experienceLevel": 7
+  },
+  {
+    "id": 4,
+    "name": "Radu Stan",
+    "spacecraft": "Starliner",
+    "status": "ACTIVE",
+    "experienceLevel": 6
+  },
+  {
+    "id": 5,
+    "name": "Sofia Marin",
+    "spacecraft": "Dragon",
+    "status": "ACTIVE",
+    "experienceLevel": 7
+  },
+  {
+    "id": 6,
+    "name": "Andrei Dumitru",
+    "spacecraft": "Orion",
+    "status": "ACTIVE",
+    "experienceLevel": 5
+  },
+  {
+    "id": 7,
+    "name": "Clara Neagu",
+    "spacecraft": "Starliner",
+    "status": "INACTIVE",
+    "experienceLevel": 8
+  },
+  {
+    "id": 8,
+    "name": "Victor Iliescu",
+    "spacecraft": "Orion",
+    "status": "ACTIVE",
+    "experienceLevel": 6
+  },
+  {
+    "id": 9,
+    "name": "Ioana Rusu",
+    "spacecraft": "Dragon",
+    "status": "LOST",
+    "experienceLevel": 9
+  },
+  {
+    "id": 10,
+    "name": "Daniel Voicu",
+    "spacecraft": "Starliner",
+    "status": "ACTIVE",
+    "experienceLevel": 7
+  },
+  {
+    "id": 11,
+    "name": "Bianca Tudor",
+    "spacecraft": "Orion",
+    "status": "ACTIVE",
+    "experienceLevel": 8
+  },
+  {
+    "id": 12,
+    "name": "Horia Pascu",
+    "spacecraft": "Dragon",
+    "status": "INACTIVE",
+    "experienceLevel": 6
+  },
+  {
+    "id": 13,
+    "name": "Nadia Ene",
+    "spacecraft": "Starliner",
+    "status": "ACTIVE",
+    "experienceLevel": 5
+  },
+  {
+    "id": 14,
+    "name": "Teodor Matei",
+    "spacecraft": "Orion",
+    "status": "ACTIVE",
+    "experienceLevel": 7
+  },
+  {
+    "id": 15,
+    "name": "Larisa Dobre",
+    "spacecraft": "Dragon",
+    "status": "ACTIVE",
+    "experienceLevel": 6
+  }
+]

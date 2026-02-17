@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "astronautId": 1,
+    "day": 1,
+    "type": "COMMUNICATION",
+    "basePoints": 4
+  },
+  {
+    "id": 2,
+    "astronautId": 2,
+    "day": 1,
+    "type": "SCIENCE",
+    "basePoints": 7
+  },
+  {
+    "id": 3,
+    "astronautId": 4,
+    "day": 2,
+    "type": "EVA",
+    "basePoints": 5
+  },
+  {
+    "id": 4,
+    "astronautId": 5,
+    "day": 2,
+    "type": "SYSTEM_FAILURE",
+    "basePoints": 3
+  },
+  {
+    "id": 5,
+    "astronautId": 6,
+    "day": 3,
+    "type": "MEDICAL",
+    "basePoints": -2
+  },
+  {
+    "id": 6,
+    "astronautId": 1,
+    "day": 3,
+    "type": "EVA",
+    "basePoints": 8
+  },
+  {
+    "id": 7,
+    "astronautId": 2,
+    "day": 4,
+    "type": "SYSTEM_FAILURE",
+    "basePoints": 1
+  },
+  {
+    "id": 8,
+    "astronautId": 10,
+    "day": 4,
+    "type": "SCIENCE",
+    "basePoints": 6
+  },
+  {
+    "id": 9,
+    "astronautId": 11,
+    "day": 5,
+    "type": "COMMUNICATION",
+    "basePoints": 2
+  },
+  {
+    "id": 10,
+    "astronautId": 14,
+    "day": 5,
+    "type": "EVA",
+    "basePoints": 4
+  },
+  {
+    "id": 11,
+    "astronautId": 15,
+    "day": 6,
+    "type": "SCIENCE",
+    "basePoints": 5
+  },
+  {
+    "id": 12,
+    "astronautId": 8,
+    "day": 6,
+    "type": "SYSTEM_FAILURE",
+    "basePoints": -1
+  },
+  {
+    "id": 13,
+    "astronautId": 10,
+    "day": 7,
+    "type": "MEDICAL",
+    "basePoints": 3
+  },
+  {
+    "id": 14,
+    "astronautId": 5,
+    "day": 7,
+    "type": "COMMUNICATION",
+    "basePoints": 0
+  },
+  {
+    "id": 15,
+    "astronautId": 11,
+    "day": 8,
+    "type": "SCIENCE",
+    "basePoints": 9
+  },
+  {
+    "id": 16,
+    "astronautId": 2,
+    "day": 8,
+    "type": "EVA",
+    "basePoints": 6
+  },
+  {
+    "id": 17,
+    "astronautId": 13,
+    "day": 9,
+    "type": "SYSTEM_FAILURE",
+    "basePoints": 2
+  },
+  {
+    "id": 18,
+    "astronautId": 14,
+    "day": 9,
+    "type": "MEDICAL",
+    "basePoints": 1
+  },
+  {
+    "id": 19,
+    "astronautId": 1,
+    "day": 10,
+    "type": "SCIENCE",
+    "basePoints": 4
+  },
+  {
+    "id": 20,
+    "astronautId": 4,
+    "day": 10,
+    "type": "COMMUNICATION",
+    "basePoints": 3
+  },
+  {
+    "id": 21,
+    "astronautId": 6,
+    "day": 11,
+    "type": "SYSTEM_FAILURE",
+    "basePoints": 0
+  },
+  {
+    "id": 22,
+    "astronautId": 15,
+    "day": 11,
+    "type": "EVA",
+    "basePoints": 5
+  },
+  {
+    "id": 23,
+    "astronautId": 11,
+    "day": 12,
+    "type": "EVA",
+    "basePoints": 7
+  },
+  {
+    "id": 24,
+    "astronautId": 8,
+    "day": 12,
+    "type": "SCIENCE",
+    "basePoints": 2
+  },
+  {
+    "id": 25,
+    "astronautId": 10,
+    "day": 13,
+    "type": "SYSTEM_FAILURE",
+    "basePoints": 4
+  }
+]
